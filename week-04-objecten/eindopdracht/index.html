@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gebruikersbeheer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Gebruikersbeheer</h1>
+    <button id="filter-admin">Toon alleen admins</button>
+  </header>
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>Naam</th>
+          <th>Email</th>
+          <th>Rol</th>
+          <th>Actief</th>
+        </tr>
+      </thead>
+      <tbody id="gebruikers"></tbody>
+    </table>
+    <section class="nieuw-formulier">
+      <h2>Nieuwe gebruiker</h2>
+      <form id="gebruiker-formulier">
+        <input type="text" id="naam" placeholder="Naam">
+        <input type="email" id="email" placeholder="Email">
+        <select id="rol">
+          <option value="gebruiker">Gebruiker</option>
+          <option value="admin">Admin</option>
+        </select>
+        <button type="submit">Voeg toe</button>
+      </form>
+    </section>
+  </main>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

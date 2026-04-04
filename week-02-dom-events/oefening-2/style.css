@@ -1,0 +1,12 @@
+.vak {
+  padding: 20px;
+  margin: 10px;
+  background-color: #eee;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.vak.actief {
+  background-color: #007bff;
+  color: white;
+}

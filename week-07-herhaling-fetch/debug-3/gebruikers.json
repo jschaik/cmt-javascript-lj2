@@ -1,0 +1,5 @@
+[
+  { "naam": "Anna",      "email": "anna@example.com"    },
+  { "naam": "Boris",     "email": "boris@example.com"   },
+  { "naam": "Charlotte", "email": "charlotte@example.com" }
+]
