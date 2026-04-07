@@ -1,5 +1,13 @@
 # Eindopdracht Week 8 — Eigen API naar keuze
 
+## Theorie
+
+Gebruik de volgende cheatsheet-pagina's als je ergens niet uitkomt:
+
+- [API's](https://meesterjson.nl/cheat-sheet/pages/javascript/api.html) — een externe API aanroepen en de response verwerken
+- [JSON & fetch](https://meesterjson.nl/cheat-sheet/pages/javascript/json.html) — `fetch()`, `.then()`, JSON lezen
+- [Async/await & promises](https://meesterjson.nl/cheat-sheet/pages/javascript/async-await.html) — alternatieve schrijfwijze met `async/await`
+
 ## Opdracht
 
 Kies een API uit de lijst in de week-README en bouw er een app omheen.
@@ -8,7 +16,7 @@ Kies een API uit de lijst in de week-README en bouw er een app omheen.
 
 1. Kies een API en vul de URL in `script.js` in
 2. Toon de data op de pagina met minimaal één filter of zoekfunctie
-3. (Vaag) Voeg extra functionaliteit toe en stijl de app
+3. Voeg extra functionaliteit toe en stijl de app
 
 ## Inleveren
 

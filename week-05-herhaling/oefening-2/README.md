@@ -16,3 +16,9 @@ Een formulier met twee velden: naam en score.
 - `addEventListener`
 - validatie
 - `array.push`
+
+## Cheatsheet
+
+- [Objecten](https://meesterjson.nl/cheat-sheet/pages/javascript/objects.html) — object literals aanmaken
+- [Destructuring & spread](https://meesterjson.nl/cheat-sheet/pages/javascript/destructuring-spread.html) — spread-operator gebruiken
+- [Events & listeners](https://meesterjson.nl/cheat-sheet/pages/javascript/events.html) — `addEventListener`, formulier submit

@@ -1,5 +1,14 @@
 # Week 7 — Herhaling fetch & debuggen
 
+## Theorie
+
+In deze week herhaal je `fetch` door fouten op te sporen en op te lossen. Je leert foutmeldingen lezen en werkt met error handling om je app robuuster te maken.
+
+| Onderwerp | Cheatsheet |
+|-----------|-----------|
+| fetch debuggen en promises | [JSON & fetch](https://meesterjson.nl/cheat-sheet/pages/javascript/json.html) |
+| try/catch en foutafhandeling | [Error handling](https://meesterjson.nl/cheat-sheet/pages/javascript/error-handling.html) |
+
 ## Opdracht
 
 In elke debug-map zit een kapotte fetch-app. Zoek de fout, fix hem, en schrijf de fout als commentaar bovenaan `script.js`.

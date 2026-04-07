@@ -15,3 +15,9 @@ Gegeven een array van speler-objecten (naam, score, level).
 - `map()`
 - `innerHTML`
 - objecten
+
+## Cheatsheet
+
+- [Arrays & methods](https://meesterjson.nl/cheat-sheet/pages/javascript/arrays-methods.html) — `filter()`, `map()`, `sort()`
+- [Objecten](https://meesterjson.nl/cheat-sheet/pages/javascript/objects.html) — werken met object-properties
+- [DOM manipulatie](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-manipulatie.html) — `innerHTML` en elementen tonen

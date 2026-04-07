@@ -1,5 +1,13 @@
 # Week 9 — localStorage
 
+## Theorie
+
+In deze week leer je hoe je data opslaat in de browser met `localStorage`. Omdat localStorage alleen tekst opslaat, gebruik je `JSON.stringify` en `JSON.parse` om objecten en arrays op te slaan.
+
+| Onderwerp | Cheatsheet |
+|-----------|-----------|
+| localStorage, JSON.stringify, JSON.parse | [DOM & localStorage](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-local-storage.html) |
+
 ## Weekoverzicht
 
 | Onderdeel | Concept | Tijd |

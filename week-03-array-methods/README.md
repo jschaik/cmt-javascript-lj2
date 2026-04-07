@@ -1,5 +1,14 @@
 # Week 3 — Array methods + string methods
 
+## Theorie
+
+In deze week leer je hoe je arrays bewerkt met ingebouwde methoden: filteren, omzetten, sorteren en doorzoeken. Ook werk je met string-methoden om tekst te vergelijken en aan te passen.
+
+| Onderwerp | Cheatsheet |
+|-----------|-----------|
+| filter, map, sort, find, includes | [Arrays & methods](https://meesterjson.nl/cheat-sheet/pages/javascript/arrays-methods.html) |
+| toLowerCase, includes en andere tekstmethoden | [String methods](https://meesterjson.nl/cheat-sheet/pages/javascript/string-methods.html) |
+
 ## Weekoverzicht
 
 | Onderdeel | Concept | Tijd |

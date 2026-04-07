@@ -32,3 +32,11 @@ Voeg een **Verwijder**-knop toe per speler. Bij verwijderen haal je de speler ui
 - `addEventListener`
 - `localStorage`
 - spread
+
+## Cheatsheet
+
+- [Arrays & methods](https://meesterjson.nl/cheat-sheet/pages/javascript/arrays-methods.html) — `filter()`, `map()`, `sort()`
+- [Objecten](https://meesterjson.nl/cheat-sheet/pages/javascript/objects.html) — object literals en properties
+- [Destructuring & spread](https://meesterjson.nl/cheat-sheet/pages/javascript/destructuring-spread.html) — spread-operator
+- [Events & listeners](https://meesterjson.nl/cheat-sheet/pages/javascript/events.html) — `addEventListener`
+- [DOM & localStorage](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-local-storage.html) — data opslaan en ophalen
