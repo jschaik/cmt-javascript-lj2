@@ -1,7 +1,7 @@
-fetch('./nieuws.json')
+fetch('./news.json')
   .then(r => r.json())
-  .then(artikelen => {
-    // Toon de artikelen in #artikelen
-    // Maak categorie-knoppen in #categorie-nav
+  .then(articles => {
+    // Toon de artikelen in #articles
+    // Maak categorie-knoppen in #category-nav
   })
   .catch(error => console.error('Fout:', error));

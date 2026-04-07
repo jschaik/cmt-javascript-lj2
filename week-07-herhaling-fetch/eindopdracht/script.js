@@ -1,5 +1,5 @@
 // Bouw voort op je week-06 eindopdracht
-// Kopieer je nieuws.json van week 6 hierheen
+// Kopieer je news.json van week 6 hierheen
 
 // Voeg toe:
 // 1. Zoekbalk: filter artikelen op titel terwijl je typt

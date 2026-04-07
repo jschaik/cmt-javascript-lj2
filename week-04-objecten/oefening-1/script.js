@@ -1,16 +1,16 @@
-const auto = {
-  naam: 'Golf',
-  merk: 'Volkswagen',
-  bouwjaar: 2008,
-  kmStand: 145000,
-  beschrijving() {
-    // Vul in: geef een zin terug met this.naam en this.merk via template literal
+const car = {
+  name: 'Golf',
+  brand: 'Volkswagen',
+  year: 2008,
+  mileage: 145000,
+  description() {
+    // Vul in: geef een zin terug met this.name en this.brand via template literal
   },
-  isOud() {
-    // Vul in: geef true terug als het bouwjaar voor 2010 is
+  isOld() {
+    // Vul in: geef true terug als het year voor 2010 is
   },
-  rijden(km) {
-    // Vul in: verhoog this.kmStand met km en geef de nieuwe km-stand terug
+  drive(km) {
+    // Vul in: verhoog this.mileage met km en geef de nieuwe km-stand terug
   },
 };
 

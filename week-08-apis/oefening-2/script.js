@@ -2,4 +2,4 @@
 // Voeg toe:
 // - Filter landen op naam terwijl je typt in de zoekbalk
 // - Sorteer landen alfabetisch
-// - Toon het aantal gevonden landen in #teller
+// - Toon het aantal gevonden landen in #counter

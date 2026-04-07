@@ -1,4 +1,4 @@
-const namen = ['Anna', 'Bob', 'Charlotte', 'David', 'Emma', 'Frank', 'Grace', 'Henk', 'Isabel', 'Jan', 'Karen', 'Lars'];
+const names = ['Anna', 'Bob', 'Charlotte', 'David', 'Emma', 'Frank', 'Grace', 'Henk', 'Isabel', 'Jan', 'Karen', 'Lars'];
 
 // Sectie 1: zoek de eerste naam die begint met de ingevoerde letter
 //           gebruik find() + startsWith() + toLowerCase()

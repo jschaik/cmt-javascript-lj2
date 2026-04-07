@@ -1,14 +1,14 @@
 // Fout gevonden: _______________
 // Oplossing: _______________
 
-fetch('./gebruikers.json')
+fetch('./users.json')
   .then(r => r.json())
-  .then(gebruikers => {
-    const lijst = document.querySelector('#resultaten');
-    gebruikers.forEach(gebruiker => {
+  .then(users => {
+    const list = document.querySelector('#results');
+    users.forEach(user => {
       const li = document.createElement('li');
-      li.textContent = gebruiker.name;
-      lijst.appendChild(li);
+      li.textContent = user.name;
+      list.appendChild(li);
     });
   })
   .catch(error => console.error('Fout:', error));

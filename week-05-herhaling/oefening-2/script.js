@@ -1,14 +1,14 @@
-const standaard = { naam: '', score: 0, level: 1 };
+const defaults = { name: '', score: 0, level: 1 };
 
-const spelers = [];
+const players = [];
 
-const lijst = document.getElementById('spelers');
+const list = document.getElementById('players');
 
-const toonSpelers = () => {
-  lijst.innerHTML = spelers.map(s => `<li>${s.naam} — ${s.score} punten</li>`).join('');
+const showPlayers = () => {
+  list.innerHTML = players.map(s => `<li>${s.name} — ${s.score} punten</li>`).join('');
 };
 
-// Luister naar het submit-event op #speler-formulier
+// Luister naar het submit-event op #player-form
 // Valideer: naam mag niet leeg zijn, score moet een getal zijn
-// Maak een nieuw speler-object aan met spread op standaard en de ingevulde waarden
+// Maak een nieuw speler-object aan met spread op defaults en de ingevulde waarden
 // Voeg het toe aan de array met push en herrender de lijst

@@ -1,4 +1,4 @@
-.vak {
+.box {
   padding: 20px;
   margin: 10px;
   background-color: #eee;
@@ -6,7 +6,7 @@
   display: inline-block;
 }
 
-.vak.actief {
+.box.active {
   background-color: #007bff;
   color: white;
 }

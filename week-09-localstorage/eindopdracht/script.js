@@ -3,11 +3,11 @@
 
 // Favorieten ophalen uit localStorage
 // Als er nog niets opgeslagen is, gebruik een lege array
-const favorieten = JSON.parse(localStorage.getItem('favorieten')) || [];
+const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
 
 // Functie om favorieten op te slaan
-const slaFavorietenOp = () => {
-  localStorage.setItem('favorieten', JSON.stringify(favorieten));
+const saveFavorites = () => {
+  localStorage.setItem('favorites', JSON.stringify(favorites));
 };
 
 // TODO: voeg een favorietenknop toe aan elk kaartje
