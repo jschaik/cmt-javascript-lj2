@@ -10,7 +10,7 @@ const showScoreboard = () => {
   //    Voeg per speler een Verwijder-knop toe (bonusopdracht: verwijder de juiste speler uit de array)
 };
 
-document.getElementById('player-form').addEventListener('submit', (e) => {
+document.querySelector('#player-form').addEventListener('submit', (e) => {
   // Voorkom het herladen van de pagina
   // Lees naam, score en level uit de invoervelden
   // Valideer: naam mag niet leeg zijn, score en level moeten getallen zijn
@@ -18,15 +18,15 @@ document.getElementById('player-form').addEventListener('submit', (e) => {
   // Voeg toe aan de array en herrender
 });
 
-document.getElementById('filter-all').addEventListener('click', () => {
+document.querySelector('#filter-all').addEventListener('click', () => {
   // Zet activeFilter op 'all' en herrender
 });
 
-document.getElementById('filter-level2').addEventListener('click', () => {
+document.querySelector('#filter-level2').addEventListener('click', () => {
   // Zet activeFilter op 'level2' en herrender
 });
 
-document.getElementById('search-bar').addEventListener('input', () => {
+document.querySelector('#search-bar').addEventListener('input', () => {
   // Herrender het scorebord live bij elke toetsaanslag
 });
 

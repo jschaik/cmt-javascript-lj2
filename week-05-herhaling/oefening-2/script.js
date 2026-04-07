@@ -2,7 +2,7 @@ const defaults = { name: '', score: 0, level: 1 };
 
 const players = [];
 
-const list = document.getElementById('players');
+const list = document.querySelector('#players');
 
 const showPlayers = () => {
   list.innerHTML = players.map(s => `<li>${s.name} — ${s.score} punten</li>`).join('');
