@@ -8,7 +8,7 @@ Welkom bij de opdrachtenrepository voor periode 1.
 
 1. Klik op 'Use this template' → 'Create a new repository'
 2. Kies je eigen GitHub-account als eigenaar
-3. Geef de repository een naam: periode-1-[jouw-naam]
+3. Geef de repository een naam: javascript-p5-[jouw-naam]
 4. Clone de repository naar je computer
 5. Maak elke week een nieuwe branch: week-01/oefeningen
 
