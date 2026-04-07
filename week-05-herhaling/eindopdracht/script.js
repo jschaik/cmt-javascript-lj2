@@ -1,10 +1,6 @@
-const spelers = JSON.parse(localStorage.getItem('spelers')) || [];
+const spelers = [];
 
 let actieveFilter = 'alle';
-
-const slaOp = () => {
-  // Sla de spelers-array op in localStorage als JSON-string
-};
 
 const toonScoreboard = () => {
   // 1. Filter op actieveFilter ('alle' of 'level2') en op de zoekterm in #zoekbalk
@@ -19,7 +15,7 @@ document.getElementById('speler-formulier').addEventListener('submit', (e) => {
   // Lees naam, score en level uit de invoervelden
   // Valideer: naam mag niet leeg zijn, score en level moeten getallen zijn
   // Maak een nieuw speler-object aan met spread op een standaardobject
-  // Voeg toe aan de array, sla op en herrender
+  // Voeg toe aan de array en herrender
 });
 
 document.getElementById('filter-alle').addEventListener('click', () => {

@@ -10,11 +10,10 @@ Bouw een volledig scorebord waarbij spelers worden toegevoegd via een formulier.
 - Het bord toont altijd de **top 5** op basis van score (`sort` + `slice`).
 - Twee filterknoppen: **Alle spelers** en **Level 2+**.
 - Een **zoekbalk** filtert live op naam.
-- Scores worden opgeslagen in **localStorage** zodat het bord bewaard blijft na herladen.
 
 ### Bonusopdracht
 
-Voeg een **Verwijder**-knop toe per speler. Bij verwijderen haal je de speler uit de array, sla je opnieuw op in localStorage en herrender je het bord. Hoe je de juiste speler uit de array haalt bepaal je zelf.
+Voeg een **Verwijder**-knop toe per speler. Bij verwijderen haal je de speler uit de array en herrender je het bord. Hoe je de juiste speler uit de array haalt bepaal je zelf.
 
 ### Bonus — Stijl het scorebord
 
@@ -30,7 +29,6 @@ Voeg een **Verwijder**-knop toe per speler. Bij verwijderen haal je de speler ui
 - `sort()`
 - `map()`
 - `addEventListener`
-- `localStorage`
 - spread
 
 ## Cheatsheet
@@ -39,4 +37,4 @@ Voeg een **Verwijder**-knop toe per speler. Bij verwijderen haal je de speler ui
 - [Objecten](https://meesterjson.nl/cheat-sheet/pages/javascript/objects.html) — object literals en properties
 - [Destructuring & spread](https://meesterjson.nl/cheat-sheet/pages/javascript/destructuring-spread.html) — spread-operator
 - [Events & listeners](https://meesterjson.nl/cheat-sheet/pages/javascript/events.html) — `addEventListener`
-- [DOM & localStorage](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-local-storage.html) — data opslaan en ophalen
+- [DOM & Local Storage](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-local-storage.html) — elementen selecteren en tekst tonen
