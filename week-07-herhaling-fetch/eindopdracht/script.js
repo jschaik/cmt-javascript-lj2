@@ -5,3 +5,4 @@
 // 1. Zoekbalk: filter artikelen op titel terwijl je typt
 // 2. Loading-toestand: toon "Laden..." terwijl fetch bezig is
 // 3. Lege staat: toon een melding als er geen resultaten zijn
+
