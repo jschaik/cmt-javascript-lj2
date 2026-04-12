@@ -3,7 +3,7 @@ const showProducts = (list) => {
   // Werk de teller bij in #counter
 };
 
-// Event listeners als commentaar:
+// Maak voor de onderstaande taken event listeners aan:
 // Zoekbalk: filter op naam (includes + toLowerCase)
 // Categorie-knoppen: filter op categorie
 // Voorraad-checkbox: toon alleen producten met stock: true
