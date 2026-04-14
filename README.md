@@ -1,6 +1,6 @@
 # Periode 1 — JavaScript Fundament
 
-## Software Development MBO 4 · Leerjaar 2
+## Software Development · Leerjaar 2
 
 Welkom bij de opdrachtenrepository voor periode 1.
 
