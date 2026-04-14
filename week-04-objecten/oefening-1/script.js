@@ -15,6 +15,3 @@ const car = {
 };
 
 // Toon de resultaten in de drie output-elementen
-
-
-//objecten cheat sheet meer voorbeelden laten zien van de functions
