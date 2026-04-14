@@ -4,33 +4,24 @@
 
 Gebruik de volgende cheatsheet-pagina's als je ergens niet uitkomt:
 
-- [JSON & fetch](https://meesterjson.nl/cheat-sheet/pages/javascript/json.html) — `fetch()`, `.then()`, JSON-structuur opbouwen
-- [Arrays & methods](https://meesterjson.nl/cheat-sheet/pages/javascript/arrays-methods.html) — `filter()` voor categorieën
+- [JSON & fetch](https://meesterjson.nl/cheat-sheet/pages/javascript/json.html) — `fetch()`, `.then()`, JSON-structuur lezen
+- [Arrays & methods](https://meesterjson.nl/cheat-sheet/pages/javascript/arrays-methods.html) — `filter()`, `map()`
+- [DOM & Local Storage](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-local-storage.html) — elementen selecteren en tekst tonen
+- [Events & listeners](https://meesterjson.nl/cheat-sheet/pages/javascript/events.html) — `addEventListener`
 
 ## Opdracht
 
-Maak een nieuwsfeed die data laadt uit `nieuws.json`.
+Maak een nieuwsfeed die artikelen laadt uit `news.json` en toont op de pagina.
 
-## Vereiste JSON-structuur
-
-```json
-[
-  {
-    "titel": "",
-    "categorie": "",
-    "datum": "",
-    "samenvatting": ""
-  }
-]
-```
-
-Vul `nieuws.json` met minimaal 6 artikelen in minimaal 2 categorieën.
+> De artikelen staan al klaar in `news.json`. Elk artikel heeft de properties `title`, `category`, `date` en `summary`. Je leest ze uit met `article.title`, `article.category`, enzovoort.
 
 ## Stappen
 
-1. Laad de artikelen met fetch en toon ze op de pagina
-2. Maak categorie-knoppen waarmee je kunt filteren
-3. Voeg extra functionaliteit toe
+### Stap 1 — Artikelen laden en tonen (~1,5 uur)
+Gebruik `fetch('./news.json')` om de artikelen te laden. Sla de artikelen op in de variabele `allArticles`. Schrijf de functie `showArticles(articles)` zodat elk artikel als een `<article>` verschijnt in `#articles`. Toon de `title`, `category` en `summary` van elk artikel.
+
+### Stap 2 — Filterknoppen (~1 uur)
+Voeg event listeners toe aan de vier filterknoppen die al in de HTML staan. Bij klik op een categorieknop filter je `allArticles` op categorie en roep je `showArticles()` aan. De knop **Alle** toont alle artikelen.
 
 ## Inleveren
 
