@@ -14,19 +14,26 @@ In deze week werk je met echte externe API's. Je haalt data op via `fetch`, verk
 
 | Onderdeel | Concept | Tijd |
 |-----------|---------|------|
-| Oefening 1 | API verkennen met console.log — restcountries | 45 min |
-| Oefening 2 | Data filteren en tonen — zoekbalk + sortering | 45 min |
+| Oefening 1 | API verkennen met console.log — Rick & Morty API | 45 min |
+| Oefening 2 | Data filteren en tonen — Pokémon API + zoekbalk | 45 min |
 | Eindopdracht | Eigen API naar keuze | 4 uur |
 
 ## API's zonder key — meteen bruikbaar
 
-- https://restcountries.com/v3.1/all
-- https://open-meteo.com/en/docs
-- https://www.thecocktaildb.com/api/json/v1/1/search.php?s=
-- https://openlibrary.org/search.json?q=
-- https://jsonplaceholder.typicode.com/posts
+Kies iets wat je leuk vindt. Hieronder een paar suggesties:
+
+| API | Wat je ermee kunt bouwen | URL |
+|-----|--------------------------|-----|
+| 🎮 Rick & Morty | Karakters zoeken en filteren op status | `https://rickandmortyapi.com/api/character` |
+| 🐉 Dragon Ball Z | Karakters met afbeeldingen en statistieken | `https://dragonball-api.com/api/characters?limit=58` |
+| 🍸 CocktailDB | Cocktails opzoeken op naam | `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=` |
+| 🚀 SpaceX | Overzicht van alle lanceringen | `https://api.spacexdata.com/v4/launches` |
+| 🐱 Cat breeds | Kattenrassen met afbeeldingen | `https://api.thecatapi.com/v1/breeds` |
+| ❓ Trivia | Willekeurige quizvragen per categorie | `https://opentdb.com/api.php?amount=20` |
+| 🎵 iTunes | Nummers en albums zoeken op artiest | `https://itunes.apple.com/search?term=` |
 
 ## API's met gratis key
 
-- https://www.omdbapi.com/ (films en series)
-- https://rawg.io/apidocs (games)
+- [OMDB](https://www.omdbapi.com/) — films en series zoeken
+- [RAWG](https://rawg.io/apidocs) — games zoeken en filteren
+- [NASA APOD](https://api.nasa.gov/) — astronomische foto van de dag

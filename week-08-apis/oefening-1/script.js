@@ -1,9 +1,10 @@
-fetch('https://restcountries.com/v3.1/all')
+fetch('https://rickandmortyapi.com/api/character')
   .then(r => r.json())
-  .then(countries => {
-    console.log(countries[0]); // Bekijk de structuur van één land
+  .then(data => {
+    console.log(data); // Bekijk de structuur
 
-    // Toon de naam van elk land in #countries-list
-    // Hint: countries[0].name.common geeft de naam
+    // De karakters zitten in data.results
+    // Elk karakter heeft een 'name' en 'image' property
+    // Toon de naam en afbeelding van elk karakter als <article> in #characters
   })
   .catch(error => console.error('Fout:', error));
