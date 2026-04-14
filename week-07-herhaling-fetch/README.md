@@ -20,3 +20,7 @@ In elke debug-map zit een kapotte fetch-app. Zoek de fout, fix hem, en schrijf d
 3. Zoek de fout in de code
 4. Fix de fout
 5. Schrijf bovenaan `script.js`: `// Fout was: ...`
+
+## Eindopdracht
+
+Maak daarna de eindopdracht in de map `eindopdracht/`. Je bouwt de nieuwsfeed van week 6 uit met een zoekbalk, lege staat en foutmelding bij laden. Zie `eindopdracht/README.md` voor de stappen.
