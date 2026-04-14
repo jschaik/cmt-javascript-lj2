@@ -9,20 +9,11 @@
 <body>
   <header>
     <h1>Gebruikersbeheer</h1>
-    <button id="filter-admin">Toon alleen admins</button>
+    <button id="filter-all">Alle gebruikers</button>
+    <button id="filter-admin">Alleen admins</button>
   </header>
   <main>
-    <table>
-      <thead>
-        <tr>
-          <th>Naam</th>
-          <th>Email</th>
-          <th>Rol</th>
-          <th>Actief</th>
-        </tr>
-      </thead>
-      <tbody id="users"></tbody>
-    </table>
+    <section id="users"></section>
     <section class="new-form">
       <h2>Nieuwe gebruiker</h2>
       <form id="user-form">
@@ -36,7 +27,6 @@
       </form>
     </section>
   </main>
-  <script src="data.js"></script>
-  <script src="script.js"></script>
+  <script src="script.uitwerking.js"></script>
 </body>
 </html>
