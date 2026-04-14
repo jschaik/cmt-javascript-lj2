@@ -1,21 +1,49 @@
-# Eindopdracht Week 9 — Favorieten opslaan in de API-app
+# Eindopdracht Week 9 — Pokémon favorieten
 
 ## Theorie
 
 Gebruik de volgende cheatsheet-pagina's als je ergens niet uitkomt:
 
 - [DOM & localStorage](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-local-storage.html) — `localStorage.setItem`, `getItem`, `JSON.stringify`, `JSON.parse`
-- [API's](https://meesterjson.nl/cheat-sheet/pages/javascript/api.html) — herhaling externe data ophalen
+- [JSON & fetch](https://meesterjson.nl/cheat-sheet/pages/javascript/json.html) — `fetch()`, `.then()`
+- [Arrays & methods](https://meesterjson.nl/cheat-sheet/pages/javascript/arrays-methods.html) — `filter()`, `map()`, `includes()`
+- [Events & listeners](https://meesterjson.nl/cheat-sheet/pages/javascript/events.html) — `addEventListener`
 
 ## Opdracht
 
-Breid je week-8 app uit met een favorietensysteem via localStorage.
+Maak een Pokémon-app waarbij je favorieten kunt opslaan in localStorage. De favorieten blijven bewaard als je de pagina herlaadt.
 
 ## Stappen
 
-1. Voeg een favorietenknop toe aan elk item — sla favorieten op in localStorage
-2. Laad de favorieten terug bij het openen van de pagina
-3. Voeg een instelling toe die ook wordt opgeslagen, zoals een weergavevoorkeur
+### Stap 1 — Pokémon laden en tonen (~1 uur)
+Haal de eerste 151 Pokémon op via de API en sla ze op in `allPokemon`. Schrijf de functie `showItems(items)` zodat elk item als een `<article>` verschijnt in `#results` met een afbeelding, naam en een **Favoriet**-knop.
+
+> De API-URL en sprite-URL ken je al van week 8:
+> - `https://pokeapi.co/api/v2/pokemon?limit=151`
+> - `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`
+
+### Stap 2 — Favoriet toevoegen (~1 uur)
+Na het renderen voeg je een click event listener toe aan elke favoriet-knop. Gebruik `querySelectorAll` met een index om te weten welke Pokémon bij welke knop hoort:
+
+```javascript
+document.querySelectorAll('.favorite-btn').forEach((btn, i) => {
+  btn.addEventListener('click', () => {
+    const name = items[i].name; // items[i] is de Pokémon bij deze knop
+    favorites.push(name);
+    saveFavorites();
+    showItems(items);
+  });
+});
+```
+
+Gebruik `includes()` om te controleren of een Pokémon al een favoriet is en de knop grijs te maken.
+
+### Stap 3 — Favorieten tonen (~30 min)
+Voeg event listeners toe aan de twee knoppen in de header. De knop **Alle Pokémon** toont alle Pokémon. De knop **Mijn favorieten** filtert `allPokemon` op de namen in de `favorites` array. Zorg dat de favorieten bewaard blijven na herladen — de `favorites` array wordt al ingeladen vanuit localStorage bovenaan `script.js`.
+
+## Bonusopdracht
+
+Maak de favoriet-knop een toggle: als een Pokémon al een favoriet is, verwijder je hem weer uit de array bij een tweede klik.
 
 ## Inleveren
 
