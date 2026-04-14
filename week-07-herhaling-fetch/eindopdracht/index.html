@@ -9,11 +9,15 @@
 <body>
   <header>
     <h1>Nieuwsfeed</h1>
-    <nav id="category-nav">
-      <input type="search" id="search-bar" placeholder="Zoek artikelen...">
-    </nav>
   </header>
   <main>
+    <nav id="category-nav">
+      <button id="filter-alle">Alle</button>
+      <button id="filter-stad">Stad</button>
+      <button id="filter-technologie">Technologie</button>
+      <button id="filter-media">Media</button>
+    </nav>
+    <input type="search" id="search-bar" placeholder="Zoek op titel...">
     <section id="articles"></section>
   </main>
   <script src="script.js"></script>
