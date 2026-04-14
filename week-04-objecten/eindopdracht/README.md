@@ -26,7 +26,7 @@ const { name, email, role, active } = user;
 Voeg event listeners toe aan de twee filterknoppen. Bij klik filter je de gebruikers op `role === 'admin'` of toon je alle gebruikers. Gebruik de `filter` variabele om bij te houden welke filter actief is.
 
 ### Stap 3 — Gebruiker toevoegen
-Laat het formulier werken met een submit event. Maak een nieuw user object aan met spread op een standaardobject en voeg het toe aan de array. Hoe je het standaardobject opzet bepaal je zelf.
+Laat het formulier werken met een submit event. Maak een nieuw user object aan met spread op een default object en voeg het toe aan de array. Hoe je het default object opzet bepaal je zelf.
 
 ## Inleveren
 

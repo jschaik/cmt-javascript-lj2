@@ -14,7 +14,7 @@ Gebruik de volgende cheatsheet-pagina's als je ergens niet uitkomt:
 
 Maak een scorebord dat spelers toont, sorteert en filtert.
 
-> De spelers staan al als objecten in de array in `script.js`. Je hoeft geen spelers te bedenken — je leest de eigenschappen uit met `speler.naam`, `speler.score` en `speler.level`.
+> De spelers staan al als objecten in de array in `script.js`. Je hoeft geen spelers te bedenken — je leest de eigenschappen uit met `player.name`, `player.score` en `player.level`.
 
 ## Stappen
 
@@ -28,11 +28,11 @@ Beperk de getoonde lijst tot de **top 5** met `slice(0, 5)`. Voeg daarna een eve
 Voeg event listeners toe aan de twee filterknoppen. Bij klik filter je op `level >= 2` of toon je alle spelers. Gebruik de `activeFilter` variabele om bij te houden welke filter actief is. Zoeken en filteren moeten tegelijk kunnen werken.
 
 ### Stap 4 — Speler toevoegen (~1 uur)
-Laat het formulier werken met een submit event. Maak een nieuw speler-object aan met spread op een standaardobject en voeg het toe aan de array. Hoe je het standaardobject opzet bepaal je zelf.
+Laat het formulier werken met een submit event. Maak een nieuw player object aan met spread op een default object en voeg het toe aan de array. Hoe je het default object opzet bepaal je zelf.
 
 ```javascript
-const standaard = { naam: '', score: 0, level: 1 };
-const nieuweSpeler = { ...standaard, naam: 'Remi', score: 2700, level: 2 };
+const defaults = { name: '', score: 0, level: 1 };
+const newPlayer = { ...defaults, name: 'Remi', score: 2700, level: 2 };
 ```
 
 ## Bonusopdracht

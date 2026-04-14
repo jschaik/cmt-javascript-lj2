@@ -1,8 +1,8 @@
 const users = [
-  { name: 'Jan de Vries',  email: 'jan@bedrijf.nl',  role: 'admin',     active: true  },
-  { name: 'Lisa Bakker',   email: 'lisa@bedrijf.nl', role: 'gebruiker', active: true  },
-  { name: 'Tom Visser',    email: 'tom@bedrijf.nl',  role: 'gebruiker', active: false },
-  { name: 'Sara Meijer',   email: 'sara@bedrijf.nl', role: 'admin',     active: true  },
+  { name: 'Jan de Vries',  email: 'jan@bedrijf.nl',  role: 'admin', active: true  },
+  { name: 'Lisa Bakker',   email: 'lisa@bedrijf.nl', role: 'user',  active: true  },
+  { name: 'Tom Visser',    email: 'tom@bedrijf.nl',  role: 'user',  active: false },
+  { name: 'Sara Meijer',   email: 'sara@bedrijf.nl', role: 'admin', active: true  },
 ];
 
 let filter = 'all';
@@ -26,7 +26,7 @@ const filterUsers = () => {
 
 // Maak een eventlistener voor het #user-form submit event
 // Lees naam, email en role uit de invoervelden
-// Maak een nieuw user object aan met spread op een standaardobject
+// Maak een nieuw user object aan met spread op een default object
 // Voeg toe aan de array en roep filterUsers() aan
 
 filterUsers();
