@@ -14,7 +14,6 @@ Een formulier met twee velden: naam en score.
 - object literals
 - spread
 - `addEventListener`
-- validatie
 - `array.push`
 
 ## Cheatsheet

@@ -10,7 +10,7 @@ const players = [
 let activeFilter = 'all';
 
 const showScoreboard = () => {
-  // Stap 1: filter op activeFilter ('all' of 'level2')
+  // Stap 1: filter op activeFilter ('all' of 'level3')
   // Stap 2: filter op zoekterm uit #search-bar (gebruik includes() en toLowerCase())
   // Stap 3: sorteer van hoog naar laag op score
   // Stap 4: pak de top 5 met slice(0, 5)
@@ -26,8 +26,8 @@ const showScoreboard = () => {
 // Maak een eventlistener voor de #filter-all button
 // Zet activeFilter op 'all' en roep showScoreboard() aan
 
-// Maak een eventlistener voor de #filter-level2 button
-// Zet activeFilter op 'level2' en roep showScoreboard() aan
+// Maak een eventlistener voor de #filter-level3 button
+// Zet activeFilter op 'level3' en roep showScoreboard() aan
 
 // Maak een eventlistener voor de #search-bar input
 // Roep showScoreboard() aan bij elke toetsaanslag

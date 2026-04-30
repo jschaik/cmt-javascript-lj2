@@ -25,7 +25,7 @@ Schrijf de functie `showScoreboard()` zodat alle spelers als lijstitems verschij
 Beperk de getoonde lijst tot de **top 5** met `slice(0, 5)`. Voeg daarna een event listener toe aan `#search-bar`. Filter de spelers live op naam terwijl de gebruiker typt. Gebruik `includes()` en `toLowerCase()` zodat hoofdletters niet uitmaken.
 
 ### Stap 3 — Filteren op level (~30 min)
-Voeg event listeners toe aan de twee filterknoppen. Bij klik filter je op `level >= 2` of toon je alle spelers. Gebruik de `activeFilter` variabele om bij te houden welke filter actief is. Zoeken en filteren moeten tegelijk kunnen werken.
+Voeg event listeners toe aan de twee filterknoppen. Bij klik filter je op `level >= 3` of toon je alle spelers. Gebruik de `activeFilter` variabele om bij te houden welke filter actief is. Zoeken en filteren moeten tegelijk kunnen werken.
 
 ### Stap 4 — Speler toevoegen (~1 uur)
 Laat het formulier werken met een submit event. Maak een nieuw player object aan met spread op een default object en voeg het toe aan de array. Hoe je het default object opzet bepaal je zelf.
