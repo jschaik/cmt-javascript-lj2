@@ -1,5 +1,156 @@
-/* Bonus: stijl het scorebord als een echte ranglijst
-   - Geef de top 3 een goud, zilver en brons kleur
-   - Gebruik CSS grid of flexbox voor de layout
-   - Voeg een animatie toe als een nieuwe speler wordt toegevoegd
-*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #1a1632;
+  color: #e8e6f4;
+  min-height: 100vh;
+}
+
+header {
+  background: linear-gradient(135deg, #4c1d95, #6d28d9);
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  letter-spacing: 0.05em;
+}
+
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+#player-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#player-form input {
+  padding: 0.55rem 0.7rem;
+  background: #2a2447;
+  color: #e8e6f4;
+  border: 1px solid #3d3560;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+#player-form input:focus {
+  outline: none;
+  border-color: #a78bfa;
+}
+
+#player-form button {
+  padding: 0.55rem 1rem;
+  background: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#player-form button:hover {
+  background: #6d28d9;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+nav button {
+  padding: 0.5rem 0.9rem;
+  background: transparent;
+  color: #c4b5fd;
+  border: 1px solid #4c3f7a;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+nav button:hover {
+  background: #2a2447;
+  color: white;
+}
+
+#search-bar {
+  flex: 1;
+  min-width: 150px;
+  padding: 0.5rem 0.8rem;
+  background: #2a2447;
+  color: #e8e6f4;
+  border: 1px solid #3d3560;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+#search-bar:focus {
+  outline: none;
+  border-color: #a78bfa;
+}
+
+#scoreboard {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: rank;
+}
+
+#scoreboard li {
+  counter-increment: rank;
+  background: #2a2447;
+  padding: 0.9rem 1.2rem 0.9rem 3.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  position: relative;
+  border-left: 4px solid #4c3f7a;
+}
+
+#scoreboard li::before {
+  content: counter(rank);
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #a78bfa;
+}
+
+#scoreboard li:nth-child(1) {
+  border-left-color: #facc15;
+}
+
+#scoreboard li:nth-child(1)::before {
+  color: #facc15;
+}
+
+#scoreboard li:nth-child(2) {
+  border-left-color: #cbd5e1;
+}
+
+#scoreboard li:nth-child(2)::before {
+  color: #cbd5e1;
+}
+
+#scoreboard li:nth-child(3) {
+  border-left-color: #d97706;
+}
+
+#scoreboard li:nth-child(3)::before {
+  color: #d97706;
+}
+
+#scoreboard strong {
+  color: white;
+}
