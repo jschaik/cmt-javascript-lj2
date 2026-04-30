@@ -15,13 +15,15 @@ Breid de nieuwsfeed van week 6 uit met een zoekbalk, een lege staat en een foutm
 
 > De artikelen staan al klaar in `news.json`. Elk artikel heeft de properties `title`, `category`, `date` en `summary`.
 
+> **Tip:** je mag je `showArticles()` en de `fetch()` uit week 6 hergebruiken — kopieer ze gerust naar `script.js` van deze week. De **filterlogica moet je wel herschrijven**, want zoeken en categorie moeten nu samen kunnen werken. Daarvoor staat `let activeCategory = 'Alle';` al klaar bovenin.
+
 ## Stappen
 
 ### Stap 1 — Vertrekpunt opzetten (~30 min)
-De structuur van `script.js` lijkt op week 6. Vul de functie `showArticles(articles)` in en laat de fetch de artikelen laden en tonen. Zorg dat de filterknoppen werken zoals in week 6.
+Vul de functie `showArticles(articles)` in en laat de fetch de artikelen laden en tonen. Dit deel is hetzelfde als in week 6.
 
 ### Stap 2 — Zoekbalk toevoegen (~1 uur)
-Voeg een event listener toe aan `#search-bar`. Filter de artikelen live op `title` terwijl de gebruiker typt. Gebruik `includes()` en `toLowerCase()`. Zorg dat zoeken en filteren op categorie tegelijk werken.
+Voeg een event listener toe aan `#search-bar`. Filter de artikelen live op `title` terwijl de gebruiker typt. Gebruik `includes()` en `toLowerCase()`. Zorg dat zoeken en filteren op categorie tegelijk werken — gebruik `activeCategory` om bij te houden welke categorie actief is, en filter op categorie én zoekterm in dezelfde functie.
 
 ### Stap 3 — Lege staat (~30 min)
 Als er na filteren of zoeken geen artikelen overblijven, toon je een melding in `#articles` zoals `<p>Geen artikelen gevonden.</p>` in plaats van een lege lijst.
