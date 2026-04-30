@@ -8,7 +8,7 @@ Vul `films.json` met minimaal 4 films. Gebruik deze structuur:
 
 ```json
 [
-  {"titel": "", "regisseur": "", "jaar": 0, "genre": ""}
+  {"title": "", "director": "", "year": 0, "genre": ""}
 ]
 ```
 
