@@ -4,5 +4,10 @@ const people = [
   { name: 'Sara', age: 22, city: 'Utrecht' },
 ];
 
-// Gebruik destructuring om name en city uit elk object te halen
-// Gebruik spread (...) om een kopie te maken met een gewijzigde city
+
+// 1. Toon in #origineel de originele lijst met alleen namen en steden.
+//    Gebruik destructuring in je .map().
+// 2. Maak met .map() en de spread operator een nieuwe array waarin
+//    de stad van elke persoon is gewijzigd naar 'Den Haag'.
+//    De originele people-array moet onveranderd blijven.
+// 3. Toon deze nieuwe lijst in #kopie, ook met destructuring.
