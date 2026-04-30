@@ -20,8 +20,6 @@ Elke week heeft drie mappen:
 - oefening-2/   → ~45 minuten, één concept geïsoleerd
 - eindopdracht/ → ~4 uur, alles combineren
 
-Klaar met de eindopdracht? Stijl de app met CSS.
-
 ## Inleveren
 
 1. Commit en push je werk naar GitHub
