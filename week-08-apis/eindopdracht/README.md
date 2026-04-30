@@ -14,7 +14,7 @@ Kies een API en bouw er een app omheen die data ophaalt, toont en filtert.
 
 **Aanbevolen API's (geen key nodig):**
 
-- `https://restcountries.com/v3.1/all` — landen met vlaggen, hoofdsteden en inwoners
+- `https://restcountries.com/v3.1/all?fields=name,capital,population,flags` — landen met vlaggen, hoofdsteden en inwoners
 - `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=` — cocktails op naam zoeken
 - `https://openlibrary.org/search.json?q=` — boeken zoeken op trefwoord
 - `https://jsonplaceholder.typicode.com/posts` — nep-blogposts, handig om mee te oefenen

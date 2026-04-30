@@ -25,6 +25,21 @@ main {
   padding: 0 1rem;
 }
 
+#search-bar {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: white;
+}
+
+#search-bar:focus {
+  outline: none;
+  border-color: #0369a1;
+}
+
 #loading {
   text-align: center;
   padding: 1rem;
