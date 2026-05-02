@@ -1,25 +1,21 @@
-const API_URL = ''; // Vul jouw API URL hier in
+const API_KEY = ''; // Vul jouw eigen OpenWeather API-key hier in
 
-let allItems = [];
-
-const showItems = (items) => {
-  // Zet elk item om naar een <article> met map() en toon het in #results
-  // Toon minimaal twee properties per item
-  // Gebruik console.log(items[0]) om de structuur te bekijken
+const showWeather = (data) => {
+  // Zet de weerinformatie van data om naar HTML in #weather-info
+  // Toon: stadsnaam, weer-icon, temperatuur, gevoelstemperatuur, luchtvochtigheid en windsnelheid
+  // Rond de temperaturen af met Math.round()
+  // Gebruik console.log(data) om de structuur te bekijken
+  // De icon-URL is: https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png
 };
 
-document.querySelector('#loading').textContent = 'Laden...';
+const getWeather = (city) => {
+  // Doe een fetch naar de OpenWeather API met city en API_KEY
+  // De URL is: https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric
+  // Gebruik console.log(data) om de structuur te bekijken
+  // Roep showWeather(data) aan met de response
+};
 
-fetch(API_URL)
-  .then(r => r.json())
-  .then(data => {
-    document.querySelector('#loading').textContent = '';
-    // Sla de data op in allItems
-    // Roep showItems() aan met allItems
-  })
-  .catch(error => {
-    document.querySelector('#loading').textContent = 'Er is iets misgegaan.';
-    console.error('Fout:', error);
-  });
-
-// Voeg hier een event listener toe voor je zoekbalk of filterknoppen
+// Voeg hier een submit event listener toe aan #search-form
+// Gebruik e.preventDefault() zodat de pagina niet herlaadt
+// Lees de waarde uit #city-input en roep getWeather(city) aan
+// Maak de input daarna leeg

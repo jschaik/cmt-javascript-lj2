@@ -3,17 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eigen API</title>
+  <title>Weerapplicatie</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Mijn API-app</h1>
+    <h1>Weerapplicatie</h1>
   </header>
   <main>
-    <input type="search" id="search-bar" placeholder="Zoek op naam...">
-    <p id="loading"></p>
-    <section id="results"></section>
+    <form id="search-form">
+      <input type="text" id="city-input" placeholder="Voer een stad in..." required>
+      <button type="submit">Zoek</button>
+    </form>
+    <section id="weather-info"></section>
   </main>
   <script src="script.js"></script>
 </body>
