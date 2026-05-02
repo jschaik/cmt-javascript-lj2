@@ -15,24 +15,14 @@ In deze week werk je met echte externe API's. Je haalt data op via `fetch`, verk
 |-----------|---------|------|
 | Oefening 1 | API verkennen met console.log — Rick & Morty API | 45 min |
 | Oefening 2 | Data filteren en tonen — Pokémon API + zoekbalk | 45 min |
-| Eindopdracht | Eigen API naar keuze | 4 uur |
+| Eindopdracht | Weerapplicatie — OpenWeather API met formulier | 4 uur |
 
-## API's zonder key — meteen bruikbaar
+## OpenWeather API
 
-Kies iets wat je leuk vindt. Hieronder een paar suggesties:
+Voor de eindopdracht gebruik je de [OpenWeather API](https://openweathermap.org/api). Maak een gratis account aan om een eigen API-key te genereren. Het kan een paar minuten duren voordat je key actief is.
 
-| API | Wat je ermee kunt bouwen | URL |
-|-----|--------------------------|-----|
-| 🎮 Rick & Morty | Karakters zoeken en filteren op status | `https://rickandmortyapi.com/api/character` |
-| 🐉 Dragon Ball Z | Karakters met afbeeldingen en statistieken | `https://dragonball-api.com/api/characters?limit=58` |
-| 🍸 CocktailDB | Cocktails opzoeken op naam | `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=` |
-| 🚀 SpaceX | Overzicht van alle lanceringen | `https://api.spacexdata.com/v4/launches` |
-| 🐱 Cat breeds | Kattenrassen met afbeeldingen | `https://api.thecatapi.com/v1/breeds` |
-| ❓ Trivia | Willekeurige quizvragen per categorie | `https://opentdb.com/api.php?amount=20` |
-| 🎵 iTunes | Nummers en albums zoeken op artiest | `https://itunes.apple.com/search?term=` |
+**API-URL:**
 
-## API's met gratis key
-
-- [OMDB](https://www.omdbapi.com/) — films en series zoeken
-- [RAWG](https://rawg.io/apidocs) — games zoeken en filteren
-- [NASA APOD](https://api.nasa.gov/) — astronomische foto van de dag
+```
+https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric
+```
