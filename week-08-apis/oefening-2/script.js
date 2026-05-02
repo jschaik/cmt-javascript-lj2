@@ -6,10 +6,10 @@ let allPokemon = [];
 
 // De afbeelding van een Pokémon staat op:
 // https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{id}.png
-// Sla het id op via de index bij het laden: { ...p, id: index + 1 }
+// Sla het id op via de index bij het laden: { ...pokemon, id: index + 1 }
 
 fetch('https://pokeapi.co/api/v2/pokemon?limit=151')
-  .then(r => r.json())
+  .then(response => response.json())
   .then(data => {
     console.log(data); // Bekijk de structuur
 

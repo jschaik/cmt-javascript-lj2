@@ -8,7 +8,6 @@ In deze week werk je met echte externe API's. Je haalt data op via `fetch`, verk
 |-----------|-----------|
 | Externe API's aanroepen | [API's](https://meesterjson.nl/cheat-sheet/pages/javascript/api.html) |
 | fetch en JSON verwerken | [JSON & fetch](https://meesterjson.nl/cheat-sheet/pages/javascript/json.html) |
-| async/await als alternatief voor .then() | [Async/await & promises](https://meesterjson.nl/cheat-sheet/pages/javascript/async-await.html) |
 
 ## Weekoverzicht
 
