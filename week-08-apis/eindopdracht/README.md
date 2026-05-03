@@ -17,19 +17,28 @@ Bouw een weerapplicatie met de [OpenWeather API](https://openweathermap.org/api)
 **API-URL:**
 
 ```
-https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric
+`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
 ```
 
-Waarbij `city` de ingevulde stadsnaam is en `apiKey` je eigen sleutel.
+Waarbij `city` de ingevulde stadsnaam is en `API_KEY` je eigen sleutel.
+
+> ⚠️ **Push je API-key nooit naar GitHub.** Je werkt daarom met een aparte `config.js` die in `.gitignore` staat — zie stap 1.
 
 ## Stappen
 
-### Stap 1 — API-key invullen en testen (~30 min)
-Vul bovenin `script.js` jouw `API_KEY` in. Open de app in de browser, typ een stadsnaam (bijvoorbeeld `Amsterdam`) en klik op zoeken. Gebruik `console.log(data)` in de `.then()` om de structuur van de response te bekijken. Noteer welke properties je nodig hebt.
+### Stap 1 — API-key veilig instellen (~15 min)
+1. Kopieer `config.example.js` en noem de kopie **`config.js`**
+2. Vul in `config.js` je eigen OpenWeather-key in bij `API_KEY`
+3. Dat is alles — `config.js` wordt automatisch ingeladen via `index.html` en staat in `.gitignore`, dus je key wordt nooit gepusht
+
+In `script.js` kun je daarna gewoon de variabele `API_KEY` gebruiken in je fetch-URL.
+
+### Stap 2 — API testen en verkennen (~15 min)
+Open de app in de browser, typ een stadsnaam (bijvoorbeeld `Amsterdam`) en klik op zoeken. Gebruik `console.log(data)` in de `.then()` om de structuur van de response te bekijken. Noteer welke properties je nodig hebt.
 
 > Tip: de belangrijkste properties zijn `data.name`, `data.main.temp`, `data.main.feels_like`, `data.main.humidity`, `data.wind.speed` en `data.weather[0].icon`.
 
-### Stap 2 — Weerinformatie tonen (~1,5 uur)
+### Stap 3 — Weerinformatie tonen (~1,5 uur)
 Vul de functie `showWeather(data)` in zodat de volgende informatie in `#weather-info` verschijnt:
 
 - Stadsnaam
@@ -43,10 +52,10 @@ Vul de functie `showWeather(data)` in zodat de volgende informatie in `#weather-
 > `https://openweathermap.org/img/wn/${icon}@2x.png`
 > waarbij `icon` de waarde is van `data.weather[0].icon`.
 
-### Stap 3 — Formulier koppelen (~1 uur)
+### Stap 4 — Formulier koppelen (~1 uur)
 Voeg een `submit` event listener toe aan het formulier. Gebruik `e.preventDefault()` zodat de pagina niet herlaadt, lees de waarde uit de input en roep `getWeather(city)` aan. Maak het invoerveld daarna leeg.
 
-### Stap 4 — Foutafhandeling (~30 min)
+### Stap 5 — Foutafhandeling (~30 min)
 Als de gebruiker een stad invult die niet bestaat, geeft de API een foutmelding terug (`data.cod !== 200`). Toon in dat geval een nette boodschap in `#weather-info` in plaats van de weerkaart.
 
 ## Bonusopdracht
