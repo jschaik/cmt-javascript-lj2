@@ -61,7 +61,7 @@ Als de gebruiker een stad invult die niet bestaat, geeft de API een foutmelding 
 ## Bonusopdracht
 
 - Pas de achtergrondkleur van de pagina aan op basis van het weer (bewolkt, zonnig, regen, etc.). Gebruik `data.weather[0].main` om te checken welk type weer het is.
-- Sla alle zoekopdrachten op in een array en toon de geschiedenis onder de weerkaart (net als bij de Twitter/Todo-opdracht uit week 2).
+- Sla alle zoekopdrachten op in een array en toon de geschiedenis onder de weerkaart (net als bij de Twitter/Todo-opdracht uit week 4).
 - Toggle card: klik op een eerder gezochte stad om de weerinfo opnieuw te tonen.
 
 ## Inleveren

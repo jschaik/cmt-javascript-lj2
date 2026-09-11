@@ -10,7 +10,7 @@ Welkom bij de opdrachtenrepository voor periode 1.
 2. Kies je eigen GitHub-account als eigenaar
 3. Geef de repository een naam: javascript-p5-[jouw-naam]
 4. Clone de repository naar je computer
-5. Maak elke week een nieuwe branch: week-01/oefeningen
+5. Maak elke week een nieuwe branch: week-02/oefeningen
 
 ## Structuur per week
 
@@ -31,8 +31,8 @@ Elke week heeft drie mappen:
 Gebruik altijd dit formaat:
 
 ```
-week-01/oefeningen
 week-02/oefeningen
 week-03/oefeningen
+week-04/oefeningen
 ...
 ```
