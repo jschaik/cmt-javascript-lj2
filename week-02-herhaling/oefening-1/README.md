@@ -18,4 +18,6 @@ Schrijf de vier functies in `script.js` af. De aanroepen en het tonen van de res
 
 ## Cheatsheet
 
-- [Moderne syntax](https://meesterjson.nl/cheat-sheet/pages/javascript/modern-syntax.html) — functies, parameters en return-waarden
+- [Functions](https://meesterjson.nl/cheat-sheet/pages/javascript/functions.html) — functies, parameters en return-waarden
+- [Variables & datatypes](https://meesterjson.nl/cheat-sheet/pages/javascript/variables-datatypes.html) — getallen, strings en booleans
+- [Conditionals](https://meesterjson.nl/cheat-sheet/pages/javascript/conditionals.html) — if/else, nodig voor `isEven`

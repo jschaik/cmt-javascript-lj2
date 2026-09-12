@@ -6,7 +6,9 @@ Deze week is een opfrisweek. Je hebt vorig jaar al met functies en de DOM gewerk
 
 | Onderwerp | Cheatsheet |
 |-----------|-----------|
-| Functies, parameters, return-waarden | [Moderne syntax](https://meesterjson.nl/cheat-sheet/pages/javascript/modern-syntax.html) |
+| Variabelen en datatypes | [Variables & datatypes](https://meesterjson.nl/cheat-sheet/pages/javascript/variables-datatypes.html) |
+| Functies, parameters, return-waarden | [Functions](https://meesterjson.nl/cheat-sheet/pages/javascript/functions.html) |
+| If/else en conditie-logica | [Conditionals](https://meesterjson.nl/cheat-sheet/pages/javascript/conditionals.html) |
 | Elementen selecteren en aanpassen | [DOM manipulatie](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-manipulatie.html) |
 
 ## Weekoverzicht

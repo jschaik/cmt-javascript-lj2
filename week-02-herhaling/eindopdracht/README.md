@@ -4,7 +4,8 @@
 
 Gebruik de volgende cheatsheet-pagina's als je ergens niet uitkomt:
 
-- [Moderne syntax](https://meesterjson.nl/cheat-sheet/pages/javascript/modern-syntax.html) — functies, parameters en return-waarden
+- [Functions](https://meesterjson.nl/cheat-sheet/pages/javascript/functions.html) — functies, parameters en return-waarden
+- [Conditionals](https://meesterjson.nl/cheat-sheet/pages/javascript/conditionals.html) — if/else, nodig voor de foutmelding en het klantniveau
 - [DOM manipulatie](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-manipulatie.html) — elementen selecteren, `textContent` en events
 
 ## Opdracht

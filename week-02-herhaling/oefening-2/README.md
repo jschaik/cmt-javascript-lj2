@@ -19,3 +19,4 @@ Werk de drie stappen in `script.js` af.
 ## Cheatsheet
 
 - [DOM manipulatie](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-manipulatie.html) — elementen selecteren en aanpassen
+- [Conditionals](https://meesterjson.nl/cheat-sheet/pages/javascript/conditionals.html) — if/else, nodig voor de kleur-toggle
