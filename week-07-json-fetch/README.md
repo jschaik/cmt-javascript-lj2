@@ -9,6 +9,8 @@ In deze week leer je hoe je data laadt vanuit een JSON-bestand via `fetch`. Je w
 | fetch, .then(), JSON verwerken | [JSON & fetch](https://meesterjson.nl/cheat-sheet/pages/javascript/json.html) |
 | try/catch en foutafhandeling | [Error handling](https://meesterjson.nl/cheat-sheet/pages/javascript/error-handling.html) |
 
+Tip: gebruik de zoekbalk bovenaan de cheat sheet om een specifieke term direct op te zoeken — dan spring je meteen naar de uitleg in plaats van de hele pagina te moeten doorzoeken.
+
 ## Weekoverzicht
 
 | Onderdeel | Concept | Tijd |

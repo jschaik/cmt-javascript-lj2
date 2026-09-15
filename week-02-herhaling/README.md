@@ -11,6 +11,8 @@ Deze week is een opfrisweek. Je hebt vorig jaar al met functies en de DOM gewerk
 | If/else en conditie-logica | [Conditionals](https://meesterjson.nl/cheat-sheet/pages/javascript/conditionals.html) |
 | Elementen selecteren en aanpassen | [DOM manipulatie](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-manipulatie.html) |
 
+Tip: gebruik de zoekbalk bovenaan de cheat sheet om een specifieke term direct op te zoeken — dan spring je meteen naar de uitleg in plaats van de hele pagina te moeten doorzoeken.
+
 ## Weekoverzicht
 
 | Onderdeel | Concept | Tijd |

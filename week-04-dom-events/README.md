@@ -10,6 +10,8 @@ In deze week werk je dieper met de DOM: je maakt elementen aan, verwijdert ze, e
 | CSS-klassen aan/uitzetten | [classList](https://meesterjson.nl/cheat-sheet/pages/javascript/classlist.html) |
 | Klik- en toetsenbordgebeurtenissen | [Events & listeners](https://meesterjson.nl/cheat-sheet/pages/javascript/events.html) |
 
+Tip: gebruik de zoekbalk bovenaan de cheat sheet om een specifieke term direct op te zoeken — dan spring je meteen naar de uitleg in plaats van de hele pagina te moeten doorzoeken.
+
 ## Weekoverzicht
 
 | Onderdeel | Concept | Tijd |

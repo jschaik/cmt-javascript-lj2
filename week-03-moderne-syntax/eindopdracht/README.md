@@ -2,7 +2,7 @@
 
 ## Theorie
 
-Gebruik de volgende cheatsheet-pagina's als je ergens niet uitkomt:
+Gebruik de volgende cheatsheet-pagina's als je ergens niet uitkomt. Je kunt een specifieke term (zoals een functienaam of methode) ook direct opzoeken in de zoekbalk bovenaan de cheat sheet — dan spring je meteen naar de uitleg in plaats van de hele pagina te moeten doorzoeken:
 
 - [Moderne syntax](https://meesterjson.nl/cheat-sheet/pages/javascript/modern-syntax.html) — arrow functions, template literals, for/of
 - [DOM manipulatie](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-manipulatie.html) — elementen aanmaken en tonen

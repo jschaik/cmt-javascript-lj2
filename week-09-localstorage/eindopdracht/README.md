@@ -2,7 +2,7 @@
 
 ## Theorie
 
-Gebruik de volgende cheatsheet-pagina's als je ergens niet uitkomt:
+Gebruik de volgende cheatsheet-pagina's als je ergens niet uitkomt. Je kunt een specifieke term (zoals een functienaam of methode) ook direct opzoeken in de zoekbalk bovenaan de cheat sheet — dan spring je meteen naar de uitleg in plaats van de hele pagina te moeten doorzoeken:
 
 - [DOM & localStorage](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-local-storage.html) — `localStorage.setItem`, `getItem`, `JSON.stringify`, `JSON.parse`
 - [JSON & fetch](https://meesterjson.nl/cheat-sheet/pages/javascript/json.html) — `fetch()`, `.then()`

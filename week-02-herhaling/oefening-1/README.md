@@ -16,6 +16,8 @@ Schrijf de vier functies in `script.js` af. De aanroepen en het tonen van de res
 - functies aanroepen
 - `if`/`else`
 
+Typ zo'n term in de zoekbalk bovenaan de [cheat sheet](https://meesterjson.nl/cheat-sheet/pages/javascript/index.html) om direct naar de uitleg te springen.
+
 ## Cheatsheet
 
 - [Functions](https://meesterjson.nl/cheat-sheet/pages/javascript/functions.html) — functies, parameters en return-waarden

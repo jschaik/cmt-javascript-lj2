@@ -8,6 +8,8 @@ In deze week leer je hoe je data opslaat in de browser met `localStorage`. Omdat
 |-----------|-----------|
 | localStorage, JSON.stringify, JSON.parse | [DOM & localStorage](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-local-storage.html) |
 
+Tip: gebruik de zoekbalk bovenaan de cheat sheet om een specifieke term direct op te zoeken — dan spring je meteen naar de uitleg in plaats van de hele pagina te moeten doorzoeken.
+
 ## Weekoverzicht
 
 | Onderdeel | Concept | Tijd |

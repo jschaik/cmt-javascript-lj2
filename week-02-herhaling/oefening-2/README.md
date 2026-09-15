@@ -4,17 +4,19 @@
 
 Werk de drie stappen in `script.js` af.
 
-1. Selecteer `#title` met `querySelector` en verander de tekst naar iets anders met `textContent`.
+1. Selecteer `#title` met `getElementById` en verander de tekst naar iets anders met `textContent`.
 2. Voeg een click event listener toe aan `#toggle-btn`. Bij de eerste klik wordt de tekstkleur van `#message` rood (`element.style.color = 'red'`), bij de volgende klik weer zwart, enzovoort (toggle met een `if`/`else` en een variabele die bijhoudt of de tekst rood is).
 3. Voeg een click event listener toe aan `#greet-btn`. Lees de waarde van `#name-input` uit met `.value` en toon in `#greeting` de tekst `'Hallo, <naam>!'`.
 
 ## Concepten
 
-- `querySelector`
+- `getElementById`
 - `textContent`
 - `addEventListener('click', ...)`
 - `.value` uitlezen van een input
 - `element.style`
+
+Typ zo'n term in de zoekbalk bovenaan de [cheat sheet](https://meesterjson.nl/cheat-sheet/pages/javascript/index.html) om direct naar de uitleg te springen.
 
 ## Cheatsheet
 

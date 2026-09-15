@@ -2,7 +2,7 @@
 //  Week 2 — Oefening 2: Basis DOM-manipulatie
 // ============================================================
 
-// 1. Selecteer #title met querySelector en verander de tekst
+// 1. Selecteer #title met getElementById en verander de tekst
 //    naar iets anders met textContent
 
 

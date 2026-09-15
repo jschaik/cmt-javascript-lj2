@@ -9,6 +9,8 @@ In deze week leer je hoe je arrays bewerkt met ingebouwde methoden: filteren, om
 | filter, map, sort, find, includes | [Arrays & methods](https://meesterjson.nl/cheat-sheet/pages/javascript/arrays-methods.html) |
 | toLowerCase, includes en andere tekstmethoden | [String methods](https://meesterjson.nl/cheat-sheet/pages/javascript/string-methods.html) |
 
+Tip: gebruik de zoekbalk bovenaan de cheat sheet om een specifieke term direct op te zoeken — dan spring je meteen naar de uitleg in plaats van de hele pagina te moeten doorzoeken.
+
 ## Weekoverzicht
 
 | Onderdeel | Concept | Tijd |
