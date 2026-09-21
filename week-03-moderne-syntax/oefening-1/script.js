@@ -13,7 +13,7 @@ function calculateArea(breedte, hoogte) {
   return breedte * hoogte;
 }
 
-// Toon het resultaat in de DOM — dit hoef je niet aan te passen:
+// Toon het resultaat in de DOM — vervang getElementById door querySelector:
 document.getElementById('result-area').textContent =
   'Oppervlak: ' + calculateArea(5, 3);
 
@@ -26,7 +26,7 @@ function makeSentence(naam, stad) {
   return 'Hallo, ik ben ' + naam + ' en ik woon in ' + stad;
 }
 
-// Toon het resultaat in de DOM — dit hoef je niet aan te passen:
+// Toon het resultaat in de DOM — vervang getElementById door querySelector:
 document.getElementById('result-sentence').textContent = makeSentence(
   'Jan',
   'Rotterdam',
@@ -51,7 +51,7 @@ function showBrands(brands) {
 // wel werken voor je dit kunt testen
 showBrands(brands);
 
-// Extra: toon ook in de DOM
+// Extra: toon ook in de DOM — vervang ook hier getElementById door querySelector
 const brandsList = document.getElementById('brands-list');
 for (let i = 0; i < brands.length; i++) {
   brandsList.innerHTML += '<li>' + brands[i] + '</li>';
