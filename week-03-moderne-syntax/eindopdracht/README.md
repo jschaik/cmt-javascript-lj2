@@ -14,8 +14,8 @@ Maak een pagina waarop je medewerkerprofielen kunt aanmaken.
 
 ## Stappen
 
-1. Laat het formulier werken: sla de invoer op in een object met naam, functie en afdeling
-2. Toon elk profiel als een kaart op de pagina met template literals
+1. Laat het formulier werken: sla de invoer op met naam, functie en afdeling
+2. Toon elk profiel als een kaart (article) op de pagina met template literals
 3. Zorg dat de pagina er netjes uitziet en voeg extra functionaliteit toe
 
 ## Inleveren
