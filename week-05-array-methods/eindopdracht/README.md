@@ -6,7 +6,7 @@ Gebruik de volgende cheatsheet-pagina's als je ergens niet uitkomt. Je kunt een 
 
 - [Arrays & methods](https://meesterjson.nl/cheat-sheet/pages/javascript/arrays-methods.html) — `filter()`, `map()`, `sort()`
 - [String methods](https://meesterjson.nl/cheat-sheet/pages/javascript/string-methods.html) — `includes()`, `toLowerCase()`
-- [DOM & Local Storage](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-local-storage.html) — elementen selecteren en tekst tonen
+- [DOM Manipulatie](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-manipulatie.html) — elementen tonen met `innerHTML`
 - [Events & listeners](https://meesterjson.nl/cheat-sheet/pages/javascript/events.html) — `addEventListener`, input event
 
 ## Opdracht
@@ -23,7 +23,7 @@ Schrijf de functie `showProducts(list)` zodat alle producten als kaartjes versch
 ### Stap 2 — Zoekbalk (~1,5 uur)
 Voeg een event listener toe aan `#search-bar`. Filter de producten live op naam terwijl de gebruiker typt. Gebruik `includes()` en `toLowerCase()` zodat hoofdletters niet uitmaken.
 
-### Stap 3 — Sorteren
+### Stap 3 — Sorteren (~1,5 uur)
 Voeg event listeners toe aan de twee sorteerknoppen. Bij klik sorteer je de producten met `sort()` van laag naar hoog of hoog naar laag op prijs. Zoeken en sorteren moeten tegelijk kunnen werken.
 
 ## Inleveren

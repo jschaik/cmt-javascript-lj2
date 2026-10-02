@@ -16,7 +16,7 @@ const products = [
 let searchTerm = '';
 let sorting = '';
 
-const showProducts = (products) => {
+const showProducts = (list) => {
   // Toon elk product als een <article> in #products
   // Laat in #counter de hoeveelheid producten zien
 };
