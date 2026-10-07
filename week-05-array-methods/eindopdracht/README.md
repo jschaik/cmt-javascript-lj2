@@ -13,18 +13,18 @@ Gebruik de volgende cheatsheet-pagina's als je ergens niet uitkomt. Je kunt een 
 
 Maak een doorzoekbare en sorteerbare productcatalogus.
 
-> De producten staan al als objecten in de array in `script.js`. Je hoeft geen objecten aan te maken — je leest alleen de eigenschappen uit met `product.name` en `product.price`.
+> De productnamen staan al in de array `products` in `script.js`.
 
 ## Stappen
 
 ### Stap 1 — Producten tonen (~1 uur)
-Schrijf de functie `showProducts(list)` zodat alle producten als kaartjes verschijnen op de pagina. Toon de naam en prijs van elk product. Werk ook de teller bij zodat je ziet hoeveel producten er zijn.
+Schrijf de functie `showProducts(list)` zodat alle producten als kaartjes verschijnen op de pagina. Toon de naam van elk product. Werk ook de teller bij zodat je ziet hoeveel producten er zijn.
 
 ### Stap 2 — Zoekbalk (~1,5 uur)
 Voeg een event listener toe aan `#search-bar`. Filter de producten live op naam terwijl de gebruiker typt. Gebruik `includes()` en `toLowerCase()` zodat hoofdletters niet uitmaken.
 
 ### Stap 3 — Sorteren (~1,5 uur)
-Voeg event listeners toe aan de twee sorteerknoppen. Bij klik sorteer je de producten met `sort()` van laag naar hoog of hoog naar laag op prijs. Zoeken en sorteren moeten tegelijk kunnen werken.
+Voeg event listeners toe aan de twee sorteerknoppen. Bij klik sorteer je de producten met `sort()` op naam van A naar Z of van Z naar A. Voor Z naar A gebruik je `sort()` en daarna `reverse()`. Zoeken en sorteren moeten tegelijk kunnen werken.
 
 ## Inleveren
 
