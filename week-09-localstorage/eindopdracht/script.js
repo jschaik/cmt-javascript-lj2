@@ -26,7 +26,7 @@ const showItems = (items) => {
 document.querySelector('#loading').textContent = 'Laden...';
 
 fetch('https://pokeapi.co/api/v2/pokemon?limit=151')
-  .then(r => r.json())
+  .then(response => response.json())
   .then(data => {
     document.querySelector('#loading').textContent = '';
     // Sla data.results op in allPokemon, voeg het id toe via de index

@@ -1,14 +1,14 @@
 // Fout gevonden: _______________
 // Oplossing: _______________
 
+const list = document.querySelector('#results')
+
 fetch('./products.json')
-  .then(r => r.json())
+  .then(response => response.json())
   .then(products => {
-    const list = document.querySelector('#results');
-    products.forEach(product => {
-      const li = document.createElement('li');
-      li.textContent = `${product.name} — €${product.price}`;
-      list.appendChild(li);
-    });
+    for(let product of products) {
+      list.innerHTML += `
+      <li>${product.name} — €${product.price}</li>`
+    }
   })
   .catch(error => console.error('Fout:', error));

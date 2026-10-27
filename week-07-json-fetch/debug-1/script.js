@@ -1,14 +1,14 @@
 // Fout gevonden: _______________
 // Oplossing: _______________
 
+const list = document.querySelector('#results')
+
 fetch('./new.json')
-  .then(r => r.json())
+  .then(response => response.json())
   .then(messages => {
-    const list = document.querySelector('#results');
-    messages.forEach(message => {
-      const li = document.createElement('li');
-      li.textContent = message.title;
-      list.appendChild(li);
-    });
+    for(let message of messages) {
+      list.innerHTML += `
+      <li>${message.title}</li>`
+    }
   })
   .catch(error => console.error('Fout:', error));

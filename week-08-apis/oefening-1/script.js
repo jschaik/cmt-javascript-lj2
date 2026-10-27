@@ -1,5 +1,5 @@
 fetch('https://rickandmortyapi.com/api/character')
-  .then(r => r.json())
+  .then(response => response.json())
   .then(data => {
     console.log(data); // Bekijk de structuur
 
