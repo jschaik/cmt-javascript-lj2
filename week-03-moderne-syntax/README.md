@@ -18,4 +18,5 @@ Tip: gebruik de zoekbalk bovenaan de cheat sheet om een specifieke term direct o
 |-----------|---------|------|
 | Oefening 1 | Arrow functions, template literals, for/of, querySelector | 45 min |
 | Oefening 2 | DOM aanpassen met events | 45 min |
+| Oefening 3 | Formulier + template literals combineren | 60 min |
 | Eindopdracht | Medewerker-profielpagina | 4 uur |

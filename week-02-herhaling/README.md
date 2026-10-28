@@ -18,5 +18,7 @@ Tip: gebruik de zoekbalk bovenaan de cheat sheet om een specifieke term direct o
 | Onderdeel | Concept | Tijd |
 |-----------|---------|------|
 | Oefening 1 | Functies schrijven en aanroepen | 45 min |
+| Oefening 1b | Parameters & argumenten | 45 min |
 | Oefening 2 | Basis DOM-manipulatie | 45 min |
+| Oefening 3 | Functies + formulier combineren | 60 min |
 | Eindopdracht | Kortingscalculator | 2 uur |

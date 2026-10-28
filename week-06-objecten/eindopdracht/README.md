@@ -16,7 +16,7 @@ Maak een gebruikersbeheerpagina op basis van de gebruikers in `script.js`.
 ## Stappen
 
 ### Stap 1 — Gebruikers tonen (~1 uur)
-Schrijf de functie `showUsers(users)` zodat alle gebruikers als kaartjes verschijnen in `#users`. Gebruik destructuring om de properties uit elk object te halen.
+Schrijf de functie `showUsers(list)` zodat alle gebruikers als kaartjes verschijnen in `#users`. Gebruik destructuring om de properties uit elk object te halen.
 
 ```javascript
 const { name, email, role, active } = user;

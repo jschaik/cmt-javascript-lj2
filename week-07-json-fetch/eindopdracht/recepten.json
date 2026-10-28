@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1,
+    "naam": "Spaghetti carbonara",
+    "emoji": "🍝",
+    "categorie": "Hoofdgerecht",
+    "bereidingstijd": 25,
+    "personen": 4,
+    "moeilijkheid": "makkelijk",
+    "vegetarisch": false,
+    "calorieen": 620,
+    "stappen": [
+      "Kook de spaghetti beetgaar.",
+      "Bak de spekblokjes knapperig.",
+      "Klop de eieren met de kaas.",
+      "Meng alles van het vuur af door de pasta."
+    ],
+    "voedingswaarde": {
+      "eiwit": 28,
+      "koolhydraten": 72,
+      "vet": 24
+    },
+    "tags": [
+      "pasta",
+      "Italiaans",
+      "snel"
+    ],
+    "beoordeling": {
+      "gemiddelde": 4.6,
+      "aantal": 212
+    }
+  },
+  {
+    "id": 2,
+    "naam": "Groene curry met tofu",
+    "emoji": "🍛",
+    "categorie": "Hoofdgerecht",
+    "bereidingstijd": 35,
+    "personen": 4,
+    "moeilijkheid": "gemiddeld",
+    "vegetarisch": true,
+    "calorieen": 480,
+    "stappen": [
+      "Snijd de tofu in blokjes en bak goudbruin.",
+      "Fruit de currypasta kort aan.",
+      "Voeg kokosmelk en paprika toe.",
+      "Laat 10 minuten pruttelen.",
+      "Serveer met rijst en limoen."
+    ],
+    "voedingswaarde": {
+      "eiwit": 19,
+      "koolhydraten": 58,
+      "vet": 21
+    },
+    "tags": [
+      "Thais",
+      "pittig",
+      "vegan"
+    ],
+    "beoordeling": {
+      "gemiddelde": 4.4,
+      "aantal": 98
+    }
+  },
+  {
+    "id": 3,
+    "naam": "Shakshuka",
+    "emoji": "🍳",
+    "categorie": "Ontbijt",
+    "bereidingstijd": 30,
+    "personen": 2,
+    "moeilijkheid": "makkelijk",
+    "vegetarisch": true,
+    "calorieen": 350,
+    "stappen": [
+      "Fruit ui en paprika.",
+      "Voeg tomaat en komijn toe en laat inkoken.",
+      "Maak kuiltjes en breek de eieren erin.",
+      "Dek af en laat de eieren stollen."
+    ],
+    "voedingswaarde": {
+      "eiwit": 18,
+      "koolhydraten": 20,
+      "vet": 22
+    },
+    "tags": [
+      "eieren",
+      "brunch"
+    ],
+    "beoordeling": {
+      "gemiddelde": 4.7,
+      "aantal": 156
+    }
+  },
+  {
+    "id": 4,
+    "naam": "Bananenpannenkoekjes",
+    "emoji": "🥞",
+    "categorie": "Ontbijt",
+    "bereidingstijd": 15,
+    "personen": 2,
+    "moeilijkheid": "makkelijk",
+    "vegetarisch": true,
+    "calorieen": 290,
+    "stappen": [
+      "Prak de bananen fijn.",
+      "Meng met eieren, havermout en kaneel.",
+      "Bak kleine pannenkoekjes in een koekenpan."
+    ],
+    "voedingswaarde": {
+      "eiwit": 11,
+      "koolhydraten": 42,
+      "vet": 8
+    },
+    "tags": [
+      "zoet",
+      "snel",
+      "gezond"
+    ],
+    "beoordeling": {
+      "gemiddelde": 4.2,
+      "aantal": 301
+    }
+  },
+  {
+    "id": 5,
+    "naam": "Kip tandoori met naan",
+    "emoji": "🍗",
+    "categorie": "Hoofdgerecht",
+    "bereidingstijd": 50,
+    "personen": 4,
+    "moeilijkheid": "gemiddeld",
+    "vegetarisch": false,
+    "calorieen": 560,
+    "stappen": [
+      "Marineer de kip in yoghurt en kruiden.",
+      "Laat minstens 30 minuten intrekken.",
+      "Gril de kip in de oven.",
+      "Serveer met warme naan en komkommer."
+    ],
+    "voedingswaarde": {
+      "eiwit": 45,
+      "koolhydraten": 48,
+      "vet": 18
+    },
+    "tags": [
+      "Indiaas",
+      "oven"
+    ],
+    "beoordeling": {
+      "gemiddelde": 4.5,
+      "aantal": 87
+    }
+  },
+  {
+    "id": 6,
+    "naam": "Tomatensoep",
+    "emoji": "🍅",
+    "categorie": "Voorgerecht",
+    "bereidingstijd": 40,
+    "personen": 4,
+    "moeilijkheid": "makkelijk",
+    "vegetarisch": true,
+    "calorieen": 180,
+    "stappen": [
+      "Snipper ui en knoflook en fruit ze aan.",
+      "Voeg tomaten en bouillon toe.",
+      "Laat 25 minuten koken.",
+      "Pureer de soep en roer de basilicum erdoor."
+    ],
+    "voedingswaarde": {
+      "eiwit": 5,
+      "koolhydraten": 22,
+      "vet": 6
+    },
+    "tags": [
+      "soep",
+      "vegan",
+      "winter"
+    ],
+    "beoordeling": {
+      "gemiddelde": 4.1,
+      "aantal": 64
+    }
+  },
+  {
+    "id": 7,
+    "naam": "Chocolade-lavacake",
+    "emoji": "🍫",
+    "categorie": "Dessert",
+    "bereidingstijd": 25,
+    "personen": 4,
+    "moeilijkheid": "moeilijk",
+    "vegetarisch": true,
+    "calorieen": 450,
+    "stappen": [
+      "Smelt chocolade en boter au bain-marie.",
+      "Klop eieren en suiker luchtig.",
+      "Spatel alles samen met de bloem.",
+      "Bak 10 minuten op 200 graden: de kern moet vloeibaar blijven."
+    ],
+    "voedingswaarde": {
+      "eiwit": 7,
+      "koolhydraten": 38,
+      "vet": 30
+    },
+    "tags": [
+      "zoet",
+      "chocolade",
+      "feest"
+    ],
+    "beoordeling": {
+      "gemiddelde": 4.9,
+      "aantal": 143
+    }
+  },
+  {
+    "id": 8,
+    "naam": "Zalm uit de oven",
+    "emoji": "🐟",
+    "categorie": "Hoofdgerecht",
+    "bereidingstijd": 30,
+    "personen": 2,
+    "moeilijkheid": "makkelijk",
+    "vegetarisch": false,
+    "calorieen": 510,
+    "stappen": [
+      "Verwarm de oven voor op 200 graden.",
+      "Leg krieltjes en bonen op een bakplaat.",
+      "Leg de zalm erop met citroen en dille.",
+      "Bak 20 minuten."
+    ],
+    "voedingswaarde": {
+      "eiwit": 36,
+      "koolhydraten": 40,
+      "vet": 22
+    },
+    "tags": [
+      "vis",
+      "oven",
+      "gezond"
+    ],
+    "beoordeling": {
+      "gemiddelde": 4.3,
+      "aantal": 71
+    }
+  }
+]

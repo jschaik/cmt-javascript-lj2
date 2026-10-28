@@ -3,21 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nieuwsfeed</title>
+  <title>Receptenboek</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Nieuwsfeed</h1>
+    <h1>Receptenboek</h1>
   </header>
   <main>
-    <nav id="category-nav">
-      <button id="filter-alle">Alle</button>
-      <button id="filter-stad">Stad</button>
-      <button id="filter-technologie">Technologie</button>
-      <button id="filter-media">Media</button>
+    <nav id="filters">
+      <button id="filter-alle">Alle recepten</button>
+      <button id="filter-ontbijt">Ontbijt</button>
+      <button id="filter-voorgerecht">Voorgerecht</button>
+      <button id="filter-hoofdgerecht">Hoofdgerecht</button>
+      <button id="filter-dessert">Dessert</button>
+      <button id="filter-vegetarisch">🌱 Vegetarisch</button>
     </nav>
-    <section id="articles"></section>
+    <p id="counter"></p>
+    <section id="recipes"></section>
   </main>
   <script src="script.js"></script>
 </body>

@@ -1,27 +1,20 @@
-let allArticles = [];
+let alleRecepten = [];
 
-const showArticles = (articles) => {
-  // Maak #articles eerst leeg, loop dan met for...of over de artikelen
-  // en voeg elk artikel als <article> toe met innerHTML +=
-  // Toon de title, category en summary van elk artikel
+const toonRecepten = (lijst) => {
+  // Maak #recipes eerst leeg en loop dan met for...of door lijst
+  // Toon per recept: emoji + naam, categorie · bereidingstijd · personen,
+  // de beoordeling (gemiddelde + aantal), het aantal stappen en of het vegetarisch is
 };
 
-fetch('./news.json')
-  .then(response => response.json())
-  .then(articles => {
-    // Sla de artikelen op in allArticles
-    // Roep showArticles() aan met allArticles
-  })
-  .catch(error => console.error('Fout bij laden:', error));
+// Laad recepten.json met fetch
+// Sla de recepten op in alleRecepten, log ze in de console
+// en roep toonRecepten() aan met alleRecepten
 
 // Maak een eventlistener voor de #filter-alle button
-// Roep showArticles() aan met allArticles
+// Roep toonRecepten() aan met alleRecepten
 
-// Maak een eventlistener voor de #filter-stad button
-// Filter allArticles op category 'Stad' en roep showArticles() aan
+// Maak eventlisteners voor de vier categorieknoppen
+// Filter alleRecepten op categorie en roep toonRecepten() aan
 
-// Maak een eventlistener voor de #filter-technologie button
-// Filter allArticles op category 'Technologie' en roep showArticles() aan
-
-// Maak een eventlistener voor de #filter-media button
-// Filter allArticles op category 'Media' en roep showArticles() aan
+// Maak een eventlistener voor de #filter-vegetarisch button
+// Filter alleRecepten op vegetarisch en roep toonRecepten() aan

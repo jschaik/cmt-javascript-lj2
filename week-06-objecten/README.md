@@ -17,4 +17,5 @@ Tip: gebruik de zoekbalk bovenaan de cheat sheet om een specifieke term direct o
 |-----------|---------|------|
 | Oefening 1 | Object aanmaken en gebruiken — properties, methods, this | 45 min |
 | Oefening 2 | Destructuring en spread | 45 min |
+| Oefening 3 | Dierenasiel — array met objecten tonen en filteren | 40 min |
 | Eindopdracht | Gebruikersbeheer | 4 uur |

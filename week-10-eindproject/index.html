@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binge-planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Binge-planner</h1>
+  </header>
+  <main>
+    <section class="search">
+      <h2>Alle series</h2>
+      <input type="search" id="search-input" placeholder="Zoek op naam, bijvoorbeeld: Arrow">
+      <p id="message"></p>
+      <div id="results"></div>
+    </section>
+
+    <section class="watchlist">
+      <h2>Mijn watchlist</h2>
+      <nav id="filters">
+        <button id="filter-alle">Alle</button>
+        <button id="filter-kijken">Nog kijken</button>
+        <button id="filter-gezien">Gezien</button>
+      </nav>
+      <p id="counter"></p>
+      <ul id="watchlist"></ul>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -3,138 +3,82 @@
 }
 
 body {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: system-ui, sans-serif;
   margin: 0;
-  background: #f1ece2;
-  color: #1a1a1a;
+  background: #fff8f0;
+  color: #3b2a1a;
 }
 
 header {
-  background: #f7f3ea;
-  border-bottom: 6px double #1a1a1a;
-  padding: 2rem 1rem 1rem;
-  text-align: center;
+  background: #d9480f;
+  color: white;
+  padding: 1.5rem 2rem;
 }
 
 header h1 {
   margin: 0;
-  font-family: "Times New Roman", Times, serif;
-  font-size: clamp(2.5rem, 8vw, 5rem);
-  font-weight: 900;
-  letter-spacing: 0.02em;
-  line-height: 1;
-  color: #1a1a1a;
-  text-transform: uppercase;
-}
-
-header h1::before,
-header h1::after {
-  content: "—";
-  margin: 0 0.5rem;
-  color: #888;
-  font-weight: 400;
-}
-
-header::after {
-  content: "DAGBLAD · EDITIE VAN VANDAAG · LOSSE NUMMERS € 2,50";
-  display: block;
-  margin-top: 0.75rem;
-  padding-top: 0.5rem;
-  border-top: 1px solid #1a1a1a;
-  font-size: 0.7rem;
-  letter-spacing: 0.3em;
-  color: #555;
 }
 
 main {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 2rem auto;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
 }
 
-#category-nav {
+#filters {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 0;
-  margin-bottom: 2rem;
-  padding: 0.5rem 0;
-  border-top: 1px solid #1a1a1a;
-  border-bottom: 1px solid #1a1a1a;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
-#category-nav button {
-  padding: 0.4rem 1.2rem;
-  background: transparent;
-  color: #1a1a1a;
-  border: none;
-  border-right: 1px solid #ccc;
-  font-family: Georgia, serif;
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
+#filters button {
+  padding: 0.5rem 1rem;
+  background: white;
+  color: #d9480f;
+  border: 1px solid #d9480f;
+  border-radius: 999px;
+  font-size: 0.9rem;
   cursor: pointer;
 }
 
-#category-nav button:last-child {
-  border-right: none;
+#filters button:hover {
+  background: #d9480f;
+  color: white;
 }
 
-#category-nav button:hover {
-  background: #1a1a1a;
-  color: #f7f3ea;
-}
-
-#articles {
+#recipes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
 }
 
-#articles article {
-  background: #fdfbf5;
-  padding: 1.5rem 1.8rem;
-  border-top: 3px solid #1a1a1a;
-  border-bottom: 1px solid #d4ccba;
-  position: relative;
+#recipes article {
+  background: white;
+  padding: 1.2rem 1.4rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
 }
 
-#articles span {
-  display: inline-block;
-  font-family: Georgia, serif;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: #b91c1c;
-  font-weight: 700;
-  margin-bottom: 0.4rem;
+#recipes h3 {
+  margin: 0 0 0.5rem;
+  color: #d9480f;
 }
 
-#articles h2 {
-  margin: 0 0 0.8rem;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.8rem;
-  font-weight: 900;
-  line-height: 1.15;
-  color: #1a1a1a;
-  letter-spacing: -0.01em;
+#recipes p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
 }
 
-#articles p {
-  margin: 0;
-  line-height: 1.65;
-  font-size: 1rem;
-  color: #2c2c2c;
-  text-align: justify;
-  hyphens: auto;
+#recipes ol {
+  margin: 0.5rem 0 0;
+  padding-left: 1.2rem;
+  font-size: 0.85rem;
+  color: #6b5644;
 }
 
-#articles p::first-letter {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 3.2rem;
-  font-weight: 900;
-  float: left;
-  line-height: 0.9;
-  margin: 0.2rem 0.5rem 0 0;
-  color: #b91c1c;
+#counter {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  color: #6b5644;
 }

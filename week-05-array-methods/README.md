@@ -17,4 +17,5 @@ Tip: gebruik de zoekbalk bovenaan de cheat sheet om een specifieke term direct o
 |-----------|---------|------|
 | Oefening 1 | Scores verwerken — filter, map, sort | 45 min |
 | Oefening 2 | Namenlijst doorzoeken — find, includes, toLowerCase | 45 min |
+| Oefening 3 | IJssalon — gefilterde array meegeven aan een functie | 45 min |
 | Eindopdracht | Productcatalogus | 4 uur |

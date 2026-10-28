@@ -18,4 +18,5 @@ Tip: gebruik de zoekbalk bovenaan de cheat sheet om een specifieke term direct o
 |-----------|---------|------|
 | Oefening 1 | Elementen aanmaken en verwijderen | 45 min |
 | Oefening 2 | Klassen en keyboard events | 45 min |
+| Oefening 3 | Items toevoegen via een formulier | 30 min |
 | Eindopdracht | Takenlijst | 4 uur |

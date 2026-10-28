@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #0f0f14;
+  color: #ececf1;
+}
+
+header {
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #26262f;
+}
+
+header h1 {
+  margin: 0;
+  color: #e50914;
+  letter-spacing: 0.02em;
+}
+
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (max-width: 800px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
+h2 {
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+}
+
+#search-input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border: 1px solid #33333d;
+  border-radius: 6px;
+  background: #1a1a22;
+  color: #ececf1;
+  font-size: 1rem;
+}
+
+#search-input:focus {
+  outline: none;
+  border-color: #e50914;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  background: #e50914;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #b20710;
+}
+
+button:disabled {
+  background: #33333d;
+  color: #8a8a96;
+  cursor: default;
+}
+
+#message {
+  color: #8a8a96;
+  min-height: 1.2rem;
+}
+
+#results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+#results article {
+  background: #1a1a22;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#results img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  background: #26262f;
+}
+
+#results h3 {
+  margin: 0.6rem 0.75rem 0.2rem;
+  font-size: 0.95rem;
+}
+
+#results p {
+  margin: 0 0.75rem 0.5rem;
+  font-size: 0.8rem;
+  color: #8a8a96;
+}
+
+#results button {
+  margin: auto 0.75rem 0.75rem;
+}
+
+.watchlist {
+  background: #1a1a22;
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+
+#filters {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#filters button {
+  background: transparent;
+  border: 1px solid #33333d;
+  color: #ececf1;
+}
+
+#filters button:hover {
+  border-color: #e50914;
+}
+
+#counter {
+  font-size: 0.85rem;
+  color: #8a8a96;
+}
+
+#watchlist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#watchlist li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0;
+  border-top: 1px solid #26262f;
+}
+
+#watchlist img {
+  width: 40px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #26262f;
+}
+
+#watchlist span {
+  flex: 1;
+}
+
+#watchlist li.gezien span {
+  text-decoration: line-through;
+  color: #8a8a96;
+}
+
+#watchlist .delete-btn {
+  background: transparent;
+  color: #8a8a96;
+  padding: 0.3rem 0.5rem;
+}
+
+#watchlist .delete-btn:hover {
+  color: #e50914;
+}

@@ -7,7 +7,8 @@ const users = [
 
 let filter = 'all';
 
-const showUsers = (users) => {
+const showUsers = (list) => {
+  // list is wat je meegeeft bij het aanroepen: alle gebruikers of alleen de admins
   // Gebruik destructuring voor elke user: const { name, email, role, active } = user
   // Toon elke user als een <article> in #users
 };

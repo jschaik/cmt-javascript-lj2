@@ -1,0 +1,63 @@
+{
+  "festival": "Zomerklanken",
+  "editie": 2026,
+  "stad": "Utrecht",
+  "optredens": [
+    {
+      "artiest": "The Night Owls",
+      "genre": "Indie",
+      "dag": "zaterdag",
+      "starttijd": "14:00",
+      "podium": { "naam": "Hoofdpodium", "capaciteit": 5000 }
+    },
+    {
+      "artiest": "DJ Moonbeam",
+      "genre": "Elektronisch",
+      "dag": "zaterdag",
+      "starttijd": "16:30",
+      "podium": { "naam": "De Tent", "capaciteit": 1200 }
+    },
+    {
+      "artiest": "Lola & de Lichtjes",
+      "genre": "Nederpop",
+      "dag": "zaterdag",
+      "starttijd": "19:00",
+      "podium": { "naam": "Hoofdpodium", "capaciteit": 5000 }
+    },
+    {
+      "artiest": "Bassment Crew",
+      "genre": "Hiphop",
+      "dag": "zaterdag",
+      "starttijd": "22:00",
+      "podium": { "naam": "De Kelder", "capaciteit": 400 }
+    },
+    {
+      "artiest": "Sunny Side Up",
+      "genre": "Reggae",
+      "dag": "zondag",
+      "starttijd": "13:00",
+      "podium": { "naam": "Strandpodium", "capaciteit": 800 }
+    },
+    {
+      "artiest": "Velvet Thunder",
+      "genre": "Rock",
+      "dag": "zondag",
+      "starttijd": "15:30",
+      "podium": { "naam": "Hoofdpodium", "capaciteit": 5000 }
+    },
+    {
+      "artiest": "Mira Nova",
+      "genre": "Pop",
+      "dag": "zondag",
+      "starttijd": "18:00",
+      "podium": { "naam": "De Tent", "capaciteit": 1200 }
+    },
+    {
+      "artiest": "The Late Shift",
+      "genre": "Jazz",
+      "dag": "zondag",
+      "starttijd": "21:00",
+      "podium": { "naam": "De Kelder", "capaciteit": 400 }
+    }
+  ]
+}

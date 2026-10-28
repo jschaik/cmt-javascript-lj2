@@ -18,7 +18,9 @@ Tip: gebruik de zoekbalk bovenaan de cheat sheet om een specifieke term direct o
 | Oefening 1 | JSON-bestand lezen — fetch + .then() | 45 min |
 | Oefening 2 | JSON-bestand zelf aanmaken | 45 min |
 | Debug 1, 2, 3 | fetch-fouten opsporen en oplossen | 45 min |
-| Eindopdracht | Nieuwsfeed | 4 uur |
+| Debug 4 | Festival-app met 9 fouten — foutmeldingen opzoeken op de cheat sheet | 60 min |
+| Oefening 3 | Nieuwsfeed — JSON laden, tonen en filteren | 45 min |
+| Eindopdracht | Receptenboek | 4 uur |
 
 ## Debug-opdrachten
 
@@ -29,3 +31,5 @@ In elke debug-map zit een kapotte fetch-app. Dit zijn korte, makkelijke opdracht
 3. Zoek de fout in de code
 4. Fix de fout
 5. Schrijf bovenaan `script.js`: `// Fout was: ...`
+
+**Debug 4** is een stuk groter: een festival-app met negen fouten. Je zoekt elke foutmelding op op de [Foutmeldingen-pagina](https://meesterjson.nl/cheat-sheet/pages/javascript/foutmeldingen.html) van de cheat sheet en houdt een foutenlogboek bij in de README van debug-4.
